@@ -11,23 +11,23 @@ function preload() {
 	api = loadJSON("https://randomapi.com/api/6de6abfedb24f889e0b5f675edc50deb?fmt=raw&sole", dataReceived);
 
 	//constellation
-	signs[0] = loadImage("images/Aries.png");
-	signs[1] = loadImage("images/Taurus.png");
-	signs[2] = loadImage("images/Gemini.png");
-	signs[3] = loadImage("images/Cancer.png");
-	signs[4] = loadImage("images/Leo.png");
-	signs[5] = loadImage("images/Virgo.png");
-	signs[6] = loadImage("images/Libra.png");
-	signs[7] = loadImage("images/Scorpio.png");
-	signs[8] = loadImage("images/Sagittarius.png");
-	signs[9] = loadImage("images/Capricorn.png");
-	signs[10] = loadImage("images/Aquarius.png");
-	signs[11] = loadImage("images/Pisces.png");
+	signs[0] = loadImage("./images/Aries.png");
+	signs[1] = loadImage("./images/Taurus.png");
+	signs[2] = loadImage("./images/Gemini.png");
+	signs[3] = loadImage("./images/Cancer.png");
+	signs[4] = loadImage("./images/Leo.png");
+	signs[5] = loadImage("./images/Virgo.png");
+	signs[6] = loadImage("./images/Libra.png");
+	signs[7] = loadImage("./images/Scorpio.png");
+	signs[8] = loadImage("./images/Sagittarius.png");
+	signs[9] = loadImage("./images/Capricorn.png");
+	signs[10] = loadImage("./images/Aquarius.png");
+	signs[11] = loadImage("./images/Pisces.png");
 
 	//level img
-	lowLevelImg = loadImage("images/low.png");
-	midLevelImg = loadImage("images/mid.png");
-	highLevelImg = loadImage("images/high.png");
+	lowLevelImg = loadImage("./images/low.png");
+	midLevelImg = loadImage("./images/mid.png");
+	highLevelImg = loadImage("./images/high.png");
 
 	font = loadFont("Font.ttf");
 }
